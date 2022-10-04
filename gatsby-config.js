@@ -3,5 +3,5 @@ module.exports = {
     title: `natepresley`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-sass`],
 }
