@@ -1,0 +1,12 @@
+nav {
+    background-color: black;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul > li {
+    margin-right: 1em;
+}
