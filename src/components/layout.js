@@ -1,23 +1,11 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
-import './layout.module.css'
+import Nav from './nav'
+import { container } from '../sass/styles.scss'
 
 const Layout = ({ pageTitle, children }) => {
     return (
-        <div>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/work">Work</Link>
-                    </li>
-                </ul>
-            </nav>
+        <div className={container}>
+            <Nav/>
             <main>
                 <h1>{pageTitle}</h1>
                 {children}
