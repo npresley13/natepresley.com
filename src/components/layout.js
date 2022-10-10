@@ -1,10 +1,10 @@
 import * as React from 'react'
 import Nav from './nav'
-import { container } from '../sass/styles.scss'
+import '../sass/index.scss'
 
 const Layout = ({ pageTitle, children }) => {
     return (
-        <div className={container}>
+        <div className="main-container">
             <Nav/>
             <main>
                 <h1>{pageTitle}</h1>
