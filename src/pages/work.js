@@ -9,6 +9,6 @@ const WorkPage = () => {
     )
 }
 
-export const Head = () => <title>Nathan's Work</title>
+export const Head = () => <title>Nathan Presley | Work</title>
 
 export default WorkPage
