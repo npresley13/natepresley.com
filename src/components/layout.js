@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Nav from './nav'
+import Footer from './footer'
 import Head from './head'
 import '../sass/index.scss'
 
@@ -12,6 +13,7 @@ const Layout = ({ pageTitle, children, metaDescription }) => {
                 <h1>{pageTitle}</h1>
                 {children}
             </main>
+            <Footer/>
         </div>
     )
 }
