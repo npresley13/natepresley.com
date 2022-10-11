@@ -5,10 +5,10 @@ import '../sass/index.scss'
 
 const Layout = ({ pageTitle, children, metaDescription }) => {
     return (
-        <div className="main-container">
-            <Head pageTitle={pageTitle} metaDescription={metaDescription}/>
+        <div className="top-wrapper">
             <Nav/>
-            <main>
+            <Head pageTitle={pageTitle} metaDescription={metaDescription}/>
+            <main className="main-container">
                 <h1>{pageTitle}</h1>
                 {children}
             </main>

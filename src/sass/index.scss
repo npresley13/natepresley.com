@@ -1,14 +1,6 @@
 @use './layout';
 @use './pages';
-
-nav > ul {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-}
-
-nav > ul > li {
-    margin-right: 1em;
-    list-style: none;
-}
+@use './abstracts';
+@use './base';
+@use './components';
 

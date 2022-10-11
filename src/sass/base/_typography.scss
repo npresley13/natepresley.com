@@ -50,3 +50,11 @@ a:visited {
 a:hover {
     text-shadow: 3px 3px rgba(#000, .3);
 }
+
+// Navigation
+
+nav > ul > li {
+    color: var(--clr-light);
+    text-decoration: none;
+    list-style: none;
+}
