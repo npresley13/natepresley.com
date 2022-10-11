@@ -16,6 +16,4 @@ const IndexPage = () => {
   )
 }
 
-export const Head = () => <title>Nathan Presley | Home</title>
-
 export default IndexPage
