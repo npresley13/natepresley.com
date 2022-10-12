@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
 const IndexPage = () => {
@@ -12,22 +13,19 @@ const IndexPage = () => {
             </div>
             <div class="three-boxes">
                 <div class="hover-box light-text">
-                    <a href="work.html">
+                    <Link to="/work" className="link">
                         <h2 class="hover-box-heading center-object">Work</h2>
-                        <div class="hover-overlay"></div>
-                    </a>
+                    </Link>
                 </div>
                 <div class="hover-box light-text">
-                    <a href="personal.html">
-                        <h2 class="hover-box-heading center-object">Personal</h2>
-                        <div class="hover-overlay"></div>
-                    </a>
+                    <Link to="/about" className="link">
+                        <h2 class="hover-box-heading center-object">About</h2>
+                    </Link>
                 </div>
                 <div class="hover-box light-text">
-                    <a href="contact.html">
+                    <Link to="/contact" className="link">
                         <h2 class="hover-box-heading center-object">Contact</h2>
-                        <div class="hover-overlay"></div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

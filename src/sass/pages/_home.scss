@@ -31,33 +31,42 @@
 }
 
 .hover-box {
-    background-color: var(--clr-medium-purple);
     width: 100%;
     aspect-ratio: 1/1;
     overflow-y: hidden;
     position: relative;
     border-radius: 10px;
     border: solid black;
-    //box-shadow: 10px 10px 15px rgba(black, .3);
 }
 
 .hover-box:hover {
     cursor: pointer;
-}
-
-.hover-overlay {
-    position: absolute;
-    background-color: var(--clr-light-purple);
-    width: 100%;
-    height: 100%;
-    transition: 300ms;
-    transform: translateY(100%);
-    opacity: 50%;
-    top: 0;
-    left: 0;
-    //display: none;
+    background-color: var(--clr-dark-purple);
+    transition: background-color .3s ease;
 }
 
 .hover-box:hover .hover-overlay {
     transform: translateY(0);
+}
+
+.hover-box-heading {
+    color: var(--clr-dark);
+}
+
+.hover-box-heading:hover {
+    color: var(--clr-action-purple);
+    transition: color .5s ease;
+}
+
+.hover-box:hover .hover-box-heading {
+    color: var(--clr-action-purple);
+    transition: color .5s ease;
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }

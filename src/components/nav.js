@@ -9,13 +9,13 @@ const Nav = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/about">About Me</Link>
                 </li>
                 <li>
-                    <Link to="/work">Work</Link>
+                    <Link to="/work">Work Experience</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact">Get In Touch</Link>
                 </li>
             </ul>
         </nav>

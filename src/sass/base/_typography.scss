@@ -19,6 +19,7 @@ h4 {
     font-family: var(--ff-headings);
 }
 
+
 // Paragraph
 
 p {
@@ -45,16 +46,17 @@ a:visited {
     color: inherit;
 }
 
-a:hover {
-    text-shadow: 3px 3px rgba(#000, .3);
-}
-
 // Navigation
 
 nav > ul > li {
     color: var(--clr-light);
     text-decoration: none;
     list-style: none;
+}
+
+nav > ul > li:hover {
+    color: var(--clr-action-purple);
+    transition: color .5s ease-in;
 }
 
 // Footer
