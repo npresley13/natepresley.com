@@ -35,8 +35,6 @@ a {
     text-decoration: none;
 }
 
-
-
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
@@ -63,4 +61,10 @@ nav > ul > li {
 
 footer > p {
     color: var(--clr-light);
+}
+
+// Lists
+
+li {
+    font-family: var(--ff-body);
 }
