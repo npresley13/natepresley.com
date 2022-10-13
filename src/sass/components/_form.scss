@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    gap: 1em;
+}
+
+form > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+form > div > label {
+    width: 100%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    border: solid black;
+}

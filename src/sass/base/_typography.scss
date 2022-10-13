@@ -5,6 +5,7 @@
 h1 {
     font-family: var(--ff-headings);
     color: var(--clr-dark);
+    margin: 0 0 1em 0;
 }
 
 h2 {
@@ -68,5 +69,17 @@ footer > p {
 // Lists
 
 li {
+    font-family: var(--ff-body);
+}
+
+// Labels
+
+label {
+    font-family: var(--ff-body);
+}
+
+// Buttons
+
+.button {
     font-family: var(--ff-body);
 }

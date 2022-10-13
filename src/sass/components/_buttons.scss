@@ -1,0 +1,12 @@
+.button {
+    background-color: white;
+    width: 25%;
+    margin: 0 0 0 auto;
+}
+
+.button:hover {
+    background-color: var(--clr-dark-purple);
+    color: var(--clr-action-purple);
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
