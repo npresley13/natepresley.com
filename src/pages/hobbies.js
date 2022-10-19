@@ -5,7 +5,7 @@ const AboutPage = () => {
     return(
        <Layout pageTitle="Nate's Hobbies" metaDescription="Learn more about Nathan Presley's personal hobbies.">
             <div>
-                <div>Image</div>
+                <div></div>
                 <h2>Volleyball</h2>
                 <div>Days a Week</div>
                 <div>Years</div>
