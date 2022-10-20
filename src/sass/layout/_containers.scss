@@ -13,3 +13,14 @@ main {
     margin: 0;
     padding: 0;
 }
+
+.card-container {
+    display: flex;
+    max-width: fit-content;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+}
