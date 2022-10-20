@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 const contactPage = () => {
     return (
         <Layout pageTitle="Contact Me">
-            <form method="post" action="#">
+            <form method="POST" action="https://getform.io/f/f53674dc-c09b-4deb-8550-2c33f52f3643">
                 <div>
                     <label>
                         First Name
