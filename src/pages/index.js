@@ -14,7 +14,7 @@ const IndexPage = () => {
                     Thank you for visiting the website of Nathan Presley. If you are a recruiter, you will find the most helpful content under the "work" tab. If you would like to learn more about me on a personal level, check out the hobbies that I enjoy! Otherwise you can feel free to contact me for anymore questions!
                     <br/>
                     <br/>
-                    As you can see, I'm no designer. But I do take an interest in frontend development. In fact, I built this website from scratch using the Gatsby framework. I also used Sass to make it pretty. I'm still learning web development, but it is definitly a passion of mine.
+                    This website is built was built from scratch using the Gatsby framework mixed with a little Sass - Syntactically Awesome Style Sheets. The mobile version is still under construction.
                     </p>
                 </div>
             </div>
