@@ -10,7 +10,7 @@ const AboutPage = () => {
                     <div className="card-image"><StaticImage className="static-image" src="../images/volleyball.png" alt="nate winning a volleyball tournament"/></div>
                     <h2>Volleyball</h2>
                     <p className="year">Since Jan. 2013</p>
-                    <p>I found my passion for volleyball from my brother-in-law who played at Ohio State.</p>
+                    <p>I regularly compete in sand volleyball tournaments across the midwest.</p>
                 </div>
                 <div className="hobby-card">
                     <div className="card-image"><StaticImage className="static-image" src="../images/jiu-jitsu.png" alt="nate winning a volleyball tournament"/></div>

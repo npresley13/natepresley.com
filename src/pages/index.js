@@ -8,13 +8,10 @@ const IndexPage = () => {
       <div>
             <div class="hero-section">
                 <div class="about-section">
-                    <p>Welcome!
+                    <p>Welcome to my personal website! If you are a recruiter, you will find the most helpful information in the "Work Experience" page. If you would like to learn more about what I do for fun, check out the "Hobbies" page. Otherwise you can get in touch with me by filling out the form on the "Get In Touch" page.
                     <br/>
                     <br/>
-                    Thank you for visiting the website of Nathan Presley. If you are a recruiter, you will find the most helpful content under the "work" tab. If you would like to learn more about me on a personal level, check out the hobbies that I enjoy! Otherwise you can feel free to contact me for anymore questions!
-                    <br/>
-                    <br/>
-                    This website is built was built from scratch using the Gatsby framework mixed with a little Sass - Syntactically Awesome Style Sheets. The mobile version is still under construction.
+                    Fun fact: I built this website from scratch using a React framework - Gatsby.
                     </p>
                 </div>
             </div>

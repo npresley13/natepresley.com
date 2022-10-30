@@ -3,7 +3,7 @@ nav {
     height: 5vh;
 }
 
-nav > ul {
+.navbar-links {
     display: flex;
     justify-content: flex-end;
     margin: auto;
@@ -13,10 +13,57 @@ nav > ul {
     text-align: center;
 }
 
-nav > ul > li {
+.navbar-links > li {
     margin-right: 2em;
 }
 
-nav > ul > li:first-child {
+.navbar-links > li:first-child {
     margin-left: 2em;
+}
+
+
+// Mobile Navigation
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        background-color: var(--clr-dark-purple);
+        position: absolute;
+        width: 45%;
+        height: 100%;
+        left: 100%;
+        justify-content: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        left: 50%;
+    }
+
+    // body {
+    //     overflow: hidden;
+    // }
 }

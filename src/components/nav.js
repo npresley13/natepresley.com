@@ -1,10 +1,23 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import { useState } from 'react'
 
 const Nav = () => {
+    
+    const [menuOpen, setMenuOpen] = useState(false);
+    
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    }
+
     return (
         <nav>
-            <ul>
+            <a href="#" className="toggle-button" onClick={toggleMenu}>
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
+            </a>
+            <ul className={`navbar-links ${menuOpen ? "active" : ""}`}>
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -20,6 +33,8 @@ const Nav = () => {
             </ul>
         </nav>
     )
+
+    
 }
 
 export default Nav
