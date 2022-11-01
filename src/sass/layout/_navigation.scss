@@ -53,17 +53,22 @@ nav {
         background-color: var(--clr-dark-purple);
         position: absolute;
         width: 45%;
-        height: 100%;
-        left: 100%;
+        min-width: 300px;
+        height: 90vh;
         justify-content: center;
+        z-index: 1;
+    }
+
+    .navbar-links > li {
+        margin: 1em auto;
+    }
+    
+    .navbar-links > li:first-child {
+        margin-left: auto;
     }
 
     .navbar-links.active {
         display: flex;
-        left: 50%;
+        right: 0;
     }
-
-    // body {
-    //     overflow: hidden;
-    // }
 }
