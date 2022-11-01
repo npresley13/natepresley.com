@@ -16,14 +16,16 @@
 
 .three-boxes {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2em;
     padding-top: 2em; 
 }
 
 .hover-box {
-    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
     aspect-ratio: 1/1;
     overflow-y: hidden;
     position: relative;
