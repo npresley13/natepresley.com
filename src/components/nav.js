@@ -4,8 +4,8 @@ import { useState } from 'react'
 
 const Nav = () => {
     
+    // Opens and close mobile menu
     const [menuOpen, setMenuOpen] = useState(false);
-    
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     }
