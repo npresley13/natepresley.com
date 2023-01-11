@@ -20,7 +20,6 @@ const Layout = ({ pageTitle, children, metaDescription}) => {
         function resizeMain() {
             newHeight = window.innerHeight - navHeight - footerHeight + 'px';
             setMainHeight(main.style.minHeight = newHeight);
-            console.log('complete');
         }
 
     window.addEventListener('resize', resizeMain);
